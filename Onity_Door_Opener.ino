@@ -1,5 +1,5 @@
 //////////////////////////////////////Hardware setup//////////////////////////////////
-// Arduino Mega 128
+// Arduino UNO
 // 5.6k resistor
 // Crystal
 // DC (coaxial) barrel connector, 5mm outer diameter, 2.1mm inner diameter
@@ -7,6 +7,7 @@
 // Attach the resistor 5.6K from 3.3v power on the Arduino to digital IO pin 3.
 // Attach digital IO pin 3 to the inner contact on the DC connector.
 // Attach ground from the Arduino to the outer contact on the DC connector.
+
 //////////////////////////////////////Alternative/////////////////////////////////////
 // 3.3v Arduino Power ---> 5.6K Resistor
 // 5.6K Resistor --------> Digital IO pin 3
@@ -23,12 +24,11 @@
 // SPST tall mini push button (momentary on)
 // DC (coaxial) barrel connector, 5mm outer diameter, 2.1mm inner diameter
 // Protoboard 1-3/4in. X 1-1/2in
+
 //////////////////////////////////////Wiring Diagram//////////////////////////////////
 // PB6 -----------> 16Mhz XTAL
 // 16Mhz XTAL ----> PB7
 // 
-
-// LOOK AT I,AGE ON FOLDER...!!!
 
 /////////////////////////////////////Code Start/////////////////////////////////////
 
